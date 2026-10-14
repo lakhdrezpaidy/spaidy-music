@@ -24,6 +24,7 @@ FAST_DOWNLOAD_OPTS = {
     'default_search': 'ytsearch1:',
     'outtmpl': 'downloads/%(id)s.%(ext)s',
     'noplaylist': True,
+        'cookiefile': 'cookies.txt',
         'extractor_args': {'youtube': {'player_client': ['android', 'ios']}},
     'socket_timeout': 15,
 }
