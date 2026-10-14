@@ -25,7 +25,7 @@ FAST_DOWNLOAD_OPTS = {
     'outtmpl': 'downloads/%(id)s.%(ext)s',
     'noplaylist': True,
         'cookiefile': 'cookies.txt',
-        'extractor_args': {'youtube': {'player_client': ['android', 'ios']}},
+        'extractor_args': {'youtube': {'player_client': ['web', 'mweb']}},
     'socket_timeout': 15,
 }
 

@@ -1,4 +1,4 @@
 pyrofork
 tgcrypto
-yt-dlp
+yt-dlp --upgrade
 aiohttp
